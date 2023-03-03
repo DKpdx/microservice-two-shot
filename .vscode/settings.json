@@ -1,5 +1,12 @@
 {
     "python.analysis.extraPaths": [
+<<<<<<< HEAD
         "./shoes/api"
+=======
+        "./hats/api"
+    ],
+    "cSpell.words": [
+        "Hatslist"
+>>>>>>> main
     ]
 }

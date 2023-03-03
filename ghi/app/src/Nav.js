@@ -17,7 +17,11 @@ function Nav() {
               <NavLink className="nav-link" to="/shoes">Shoes</NavLink>
             </li>
             <li className="nav-item">
+<<<<<<< HEAD
               <NavLink className="nav-lin d-none" to="/shoes/new">Shoes</NavLink>
+=======
+              <NavLink className="nav-link d-none" to="/hats/new">Hats</NavLink>
+>>>>>>> main
             </li>
             <li className="nav-item">
               <NavLink className="nav-link" to="/hats">Hats</NavLink>
