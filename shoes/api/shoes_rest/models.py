@@ -16,7 +16,7 @@ class BinVO(models.Model):
         return f"{self.closet_name} - {self.bin_number}/{self.bin_size}"
 
 
-class Shoe (models.Model):
+class Shoe(models.Model):
     manufactuer_name = models.CharField(max_length=200)
     model_name = models.CharField(max_length=200)
     color = models.CharField(max_length=40)
@@ -26,3 +26,6 @@ class Shoe (models.Model):
         related_name="shoes",
         on_delete=models.CASCADE,
     )
+
+
+
