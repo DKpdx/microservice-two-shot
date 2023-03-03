@@ -31,7 +31,7 @@ function ShoeColumn(props) {
                                 {shoe.manufactuer_name}
                             </h6>
                             <p className="card-text">
-                                Color: {shoe.color} Bin: {shoe.bin.bin_number}
+                                Color: {shoe.color} Bin: {shoe.bin.closet_name}
                             </p>
                         </div>
                         <button type="button" className="btn btn-outline-danger me-md-2" onClick={() => handleDelete(shoe.id)}>Delete</button>

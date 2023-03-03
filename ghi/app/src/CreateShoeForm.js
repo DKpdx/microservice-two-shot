@@ -136,7 +136,7 @@ function CreateShoeForm() {
                 {bins.map(bin => {
                   return (
                     <option value={bin.id} key={bin.id}>
-                      {bin.id}
+                      {bin.closet_name}
                     </option>
                   );
                 })}
