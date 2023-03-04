@@ -2,7 +2,7 @@
 
 Team:
 
-* Person 1 - Which microservice?
+* Janar Bukaihan - Shoe microservice
 * Danny Mitchell - Hat microservice?
 
 ## Design
@@ -10,7 +10,7 @@ Team:
 ## Shoes microservice
 1, Install django app into django project settings:
 add this line “shoes_rest.apps.ShoesApiConfig” into INSTALLED_APPS, don’t forget the ‘,’ after it.
-2, make the models. 
+2, make the models.
 
 
 ## Hats microservice

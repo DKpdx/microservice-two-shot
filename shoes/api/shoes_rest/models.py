@@ -26,6 +26,3 @@ class Shoe(models.Model):
         related_name="shoes",
         on_delete=models.CASCADE,
     )
-
-
-

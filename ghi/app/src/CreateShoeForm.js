@@ -95,7 +95,7 @@ function CreateShoeForm() {
             <div className="form-floating mb-3">
               <input
                 placeholder="Picture url"
-                required type="text"
+                required type="url"
                 name="picture"
                 id="picture"
                 className="form-control"
