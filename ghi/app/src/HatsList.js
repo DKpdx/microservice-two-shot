@@ -48,10 +48,9 @@ function HatList() {
       try {
         const response = await fetch(url);
         if (response.ok) {
-          // Get the list of shoes
+
             const data = await response.json();
 
-            // Create a list for all requests
             const requests = [];
             for (let hat of data.hats) {
               const hatUrl = `http://localhost:8090/api/hats/${hat.id}/`;
@@ -94,7 +93,7 @@ function HatList() {
         <h1 className="display-5 fw-bold">My Hat Collection</h1>
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4">
-            The only resource you'll ever need to organize your Hats.
+            Where I Track My Hats.
           </p>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
             <Link to="/hats/new" className="btn btn-primary btn-lg px-4 gap-3">Log New Hat</Link>

@@ -110,7 +110,8 @@ return (
                     <option value="">Choose a location</option>
                     {locations.map(location => {
                         return (
-                            <option key={location.href} value={location.href}>{location.closet_name}
+                            <option key={location.href} value={location.href}>
+                                {location.closet_name}
                             </option>
                         );
                     })}
