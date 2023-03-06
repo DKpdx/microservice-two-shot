@@ -3,14 +3,23 @@
 Team:
 
 * Janar Bukaihan - Shoe microservice
-* Danny Mitchell - Hat microservice?
+* Danny Mitchell - Hat microservice
 
 ## Design
 
 ## Shoes microservice
-1, Install django app into django project settings:
-add this line “shoes_rest.apps.ShoesApiConfig” into INSTALLED_APPS, don’t forget the ‘,’ after it.
-2, make the models.
+List of the steps i took:
+1, Installed django app into django project settings:
+added this line “shoes_rest.apps.ShoesApiConfig” into INSTALLED_APPS,
+2, Made the models. In models I created classes BinVO and Shoe.
+3, Made view functions and encoders.
+4, Added path to url.py, admin.py, and shoes_project/urls.py.
+5, Opened Insomnia put the urls in, tested if the funtions work.
+6, Made polling function to let bin data communicated with shoes. Tested by creating a new shoe to shoelist on insomnia.
+7, Started building frontend, added ShoeList component, implemented cards and column, each row has 3 columns.
+8, Added CreateShoeForm component, wrote jsx as return, captured input data then turn them into states of the component.
+9, Added nested route in App component.
+
 
 
 ## Hats microservice
